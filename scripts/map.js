@@ -129,8 +129,8 @@ $(window).on('load', function() {
           .bindPopup('<b>' + point['Name'] + '</b><br>' +
                      '<b>Pruga ' + point['OznakaPruge'] + ' ' + point['NazivPruge'] + '</b><br>' +
           (point['Image'] ? ('<img src="' + point['Image'] + '"><br>') : '') +
-          '<a href="' + point['Image2'] + '">Slika 2</a><br>' +
-          '<a href="' + point['Image3'] + '">Slika 3</a><br>' +
+          '<a href="' + point['Image2'] + '">Slika 2</a> ' +
+          '<a href="' + point['Image3'] + '">Slika 3</a> ' +
           '<a href="' + point['Image4'] + '">Slika 4</a><br>' +
           point['Description']);
 
