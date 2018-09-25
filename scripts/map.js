@@ -129,9 +129,9 @@ $(window).on('load', function() {
           .bindPopup('<b>' + point['Name'] + '</b><br>' +
                      '<b>Pruga ' + point['OznakaPruge'] + ' ' + point['NazivPruge'] + '</b><br>' +
           (point['Image'] ? ('<img src="' + point['Image'] + '"><br>') : '') +
-          (point['Image2'] ? ('<a href="' + point['Image2'] + '" target="_blank"><br>') : '') +
-          (point['Image3'] ? ('<a href="' + point['Image3'] + '" target="_blank"><br>') : '') +
-          (point['Image4'] ? ('<a href="' + point['Image4'] + '" target="_blank"><br>') : '') +
+          '<a href="' + point['Image2'] + '" target="_blank">Slika 2</a><br>' +
+          '<a href="' + point['Image3'] + '" target="_blank">Slika 3</a><br>' +
+          '<a href="' + point['Image4'] + '" target="_blank">Slika 4</a><br>' +
           point['Description']);
 
         if (layers !== undefined && layers.length !== 1) {
