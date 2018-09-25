@@ -931,23 +931,6 @@ $(window).on('load', function() {
     }).addTo(map);
   }
   
-  ivAttribution = ' | Podaci © <a href="http://www.hzinfra.hr/">HŽI</a> | ' +
-  'Izrada © <a href="http://ivgeo.net/">ivgeo</a>',
-  DGUAttribution = 'DOF5 2011 © <a href="http://www.dgu.hr">DGU</a>',
-  
-  var geoportal = L.tileLayer.wms("http://geoportal.dgu.hr/wms", {
-    layers: 'DOF',
-    format: 'image/png',
-    transparent: true,
-    attribution: DGUAttribution + ivAttribution
-  });
-  
-  var baseMaps = {
-    "Streets": basemap,
-    "DOF": geoportal
-  };
-
-	L.control.layers(baseMaps, overlayMaps).addTo(mymap);
 
   /**
    * Returns the value of a setting s
