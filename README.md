@@ -8,7 +8,7 @@ Customize Leaflet maps with a linked Google Sheets template and GeoJSON data on 
 - Google Sheets template https://docs.google.com/spreadsheets/d/16WZDgzlyzfP3_OQ1A9gIcd-1UlvOaIHgm2zFlaiGZVI/
 
 ## Create your own
-- See video with step-by-step tutorial in *Data Visualization for All* http://www.datavizforall.org/leaflet/with-google-sheets/
+- See video with step-by-step tutorial in *Data Visualization for All* https://datavizforall.org/leaflet-maps-with-google-sheets.html
 
 ## Credits (and licenses)
 Developed by [Ilya Ilyankou](https://github.com/ilyankou) and [Jack Dougherty](https://github.com/jackdougherty) with support from Trinity College CT, using a [Google Sheets](https://www.google.com/sheets/about/) template, with these open-source components:
